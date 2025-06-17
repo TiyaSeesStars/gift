@@ -655,5 +655,13 @@ h(Math,"asinh",xr.asinh,Math.asinh(1e300)===Infinity);h(Math,"atanh",xr.atanh,Ma
 ;require("harlowe")}());
 </script>
 
+<audio id="bg-music" src="playlist-to-study-sleep--dreamcoreweirdcore.mp3" loop autoplay volume="0.3"></audio>
+<script>
+  document.getElementById('bg-music').volume = 0.3;
+  document.getElementById('bg-music').play().catch(() => {
+    console.log('Autoplay prevented — user interaction needed');
+  });
+</script>
+
 </body>
 </html>
